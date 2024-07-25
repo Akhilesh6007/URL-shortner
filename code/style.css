@@ -5,21 +5,94 @@
 } 
 
 body{
-    align-items: center;  
-    justify-content: center;
-    display: flex;
-    padding: 10rem;
-    background-color: #f02020;
-    position: absolute;
-    color: red;
+    
+    background-image: url(images/blue.jpg);
     
 }
-.container{
-    background-color: blueviolet;
+.navbar {
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    height: 90px;
     display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+.navbar li a{
+        
+   list-style: none;
+   margin-left: 100px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.signin{
+    margin-left: 10px;
+    font-size: 25px;
+    background-color: aquamarine;
+    border-radius: 19%;
+}
+.signup {
+    margin-left: 20px;
+    font-size: 25px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.signin a{
+    text-decoration: none;
+}
+.signup a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: rgba(0, 0,0, 0);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    gap: 1.5rem;
+    position: absolute;
+    display: flex;
+    bottom: 50%;
+    right: 40%;
+}
+label{
+    font-size: 50px;
+    padding: 7px;
+    color: black;
+}
+#url{
+    padding: 10px;
+    border-radius: 10px;
+}
+#url::placeholder{
+    text-align: center;
 
 }
+#btn{
+    background-color: blueviolet;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+}
+.small-container{
+    top: 90;
+}
+p{
+    color: #e0d9d9;
+}
+

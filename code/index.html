@@ -6,13 +6,29 @@
     <title>URL-Shortner</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body> 
+<body>
+<div class="navbar">
+    <div class="logo"></div>
+    <ul class="nav-links" >
+        <li><a href="http://" target="_blank">Home</a></li>
+        <li><a href="http://" target="_blank">Info</a></li>
+        <li><a href="http://" target="_blank">Contracts</a></li>
+        <li><a href="http://" target="_blank"></a></li>
+        <li><a href="http://" target="_blank"></a></li>
+    </ul>
+    <button class="signin"><a href="#">Sign In</a></button>
+    <button class="signup"><a href="#">Sign Up</a></button>
+</div>
     <div class="container">
             <label>URL-Shortner</label>
+            <p>Generate a short url and redirect to  the <br> next-tab
+               when a user click on a short Url </p>
             <input placeholder="Enter your Url" type="text" name="FullUrl" id="url" class="form-control mr-2">
             <button id="btn" type="Submit"> Submit</button> 
         
     </div>
+        
+    
     <script src="function.js"></script>   
 </body>
 </html> 
